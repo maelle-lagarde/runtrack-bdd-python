@@ -4,7 +4,7 @@ class Animal:
     def __init__(self, host, user, password, database):
         self.host = "localhost"
         self.user = "root"
-        self.password = "Ml-031393"
+        self.password = ""
         self.database = "zoo"
         self.connection = mysql.connector.connect(
             host=self.host,
